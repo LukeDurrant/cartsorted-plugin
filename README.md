@@ -1,8 +1,8 @@
-# OpenOrder
+# CartSorted
 
-OpenOrder answers one question: **where should I do this shop?** Give your
+CartSorted answers one question: **where should I do this shop?** Give your
 assistant a grocery list and it compares the whole basket across the major
-supermarkets in your country, using fresh prices from OpenOrder's own
+supermarkets in your country, using fresh prices from CartSorted's own
 catalogue, and tells you which store is cheapest and what to buy where.
 
 For shoppers in Australia, the United Kingdom, New Zealand and the United
@@ -21,24 +21,24 @@ States.
 **Claude Code**
 
 ```bash
-claude plugin marketplace add LukeDurrant/openorder-plugin
+claude plugin marketplace add LukeDurrant/cartsorted-plugin
 ```
 
 ```bash
-claude plugin install openorder@openorder
+claude plugin install cartsorted@cartsorted
 ```
 
-Then type `/mcp` in a session, choose the OpenOrder server and sign in.
+Then type `/mcp` in a session, choose the CartSorted server and sign in.
 
-**Claude (web, desktop, mobile) and ChatGPT:** add OpenOrder from the
+**Claude (web, desktop, mobile) and ChatGPT:** add CartSorted from the
 plugin directory once it is listed. Until then, add
 `https://www.openorder.bot/api/mcp` as a custom connector (Claude) or under
 Plugins in Developer mode (ChatGPT). Steps for each app are at
-[www.openorder.bot/ai](https://www.openorder.bot/ai).
+[cartsorted.com/ai](https://cartsorted.com/ai).
 
 ## What is in the plugin
 
-- **A connector** to OpenOrder's hosted MCP server at
+- **A connector** to CartSorted's hosted MCP server at
   `https://www.openorder.bot/api/mcp`. It provides the tools: basket
   comparison, product price lookup, the list of stores covered, your recipes
   and meal plan, a priced shopping list, and each store's own cart links.
@@ -52,27 +52,27 @@ executables.
 
 ## Signing in
 
-The first time a tool runs you are sent to OpenOrder's own consent page to
-sign in and approve the connection. Create a free account at
-[www.openorder.bot](https://www.openorder.bot) first. Your assistant never
-sees your OpenOrder password, and you can disconnect at any time in your
+The first time a tool runs you are sent to CartSorted's own consent page to
+sign in and approve the connection. Create an account at
+[cartsorted.com](https://cartsorted.com) first. Your assistant never
+sees your CartSorted password, and you can disconnect at any time in your
 assistant's connector settings.
 
-Prices are compared for the country of the postcode saved in your OpenOrder
+Prices are compared for the country of the postcode saved in your CartSorted
 settings. If the assistant says it can't tell which country you shop in, save
 your postcode there and ask again.
 
 ## What it sends and receives
 
-Your assistant sends OpenOrder the items, products or week you ask about.
-OpenOrder returns prices, store comparisons, your recipes, meal plans and
+Your assistant sends CartSorted the items, products or week you ask about.
+CartSorted returns prices, store comparisons, your recipes, meal plans and
 shopping lists, and cart links. It does not return your email address,
 password or payment details. See the
-[privacy policy](https://www.openorder.bot/privacy).
+[privacy policy](https://cartsorted.com/privacy).
 
 ## What it can change
 
-Four things in your OpenOrder account, each only when you ask: your saved
+Four things in your CartSorted account, each only when you ask: your saved
 postcode, the day you do the week's shop, adding a recipe to your meal plan,
 and taking a meal off it. Taking a meal off is the one action that removes
 anything, so your assistant asks you to confirm it first; the recipe stays in
@@ -89,11 +89,11 @@ your library.
 ## Licence
 
 The files in this repository are released under the [MIT licence](LICENSE).
-The OpenOrder service they connect to has its own
-[terms](https://www.openorder.bot/terms).
+The CartSorted service they connect to has its own
+[terms](https://cartsorted.com/terms).
 
 ## Help
 
-[Support](https://www.openorder.bot/support) ·
-[Terms](https://www.openorder.bot/terms) ·
-[How to connect an assistant](https://www.openorder.bot/ai)
+[Support](https://cartsorted.com/support) ·
+[Terms](https://cartsorted.com/terms) ·
+[How to connect an assistant](https://cartsorted.com/ai)

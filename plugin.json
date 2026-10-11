@@ -1,15 +1,15 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "openorder",
-  "version": "1.0.2",
+  "name": "cartsorted",
+  "version": "1.1.0",
   "description": "Compare a grocery basket across the major supermarkets in Australia, the UK, New Zealand and the US, plan the week's meals, and hand each store's share of the shopping list to its own cart.",
   "author": {
-    "name": "OpenOrder",
+    "name": "CartSorted",
     "email": "contact@lukedurrant.com",
-    "url": "https://www.openorder.bot"
+    "url": "https://cartsorted.com"
   },
-  "homepage": "https://www.openorder.bot",
-  "repository": "https://github.com/LukeDurrant/openorder-plugin",
+  "homepage": "https://cartsorted.com",
+  "repository": "https://github.com/LukeDurrant/cartsorted-plugin",
   "license": "MIT",
   "keywords": [
     "groceries",
@@ -21,10 +21,10 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "OpenOrder",
+        "displayName": "CartSorted",
         "shortDescription": "Cheapest store for your shop",
-        "longDescription": "OpenOrder answers one question: where should I do this shop? Give it a list of groceries and it compares the whole basket across the major supermarkets in your country, using fresh prices from our own catalogue, and shows which store is cheapest overall, what to buy where, and which items no store stocks. Look up a single product to see every store's price and unit price side by side. Plan the week's meals from your recipe library, get a priced shopping list, and open each store's share of the list in that store's own cart in your browser.\n\nFor shoppers in Australia, the United Kingdom, New Zealand and the United States. Ask which stores are covered in your country: OpenOrder only compares the stores it lists. Sign in with your OpenOrder account; prices are compared for the country of your saved postcode. OpenOrder never sees your supermarket login or payment details and never checks out for you: cart links open in your own browser, where you review the cart and pay yourself. Store availability and prices vary by area, and a price we last confirmed more than a week ago is marked as older.",
-        "developerName": "OpenOrder",
+        "longDescription": "CartSorted answers one question: where should I do this shop? Give it a list of groceries and it compares the whole basket across the major supermarkets in your country, using fresh prices from our own catalogue, and shows which store is cheapest overall, what to buy where, and which items no store stocks. Look up a single product to see every store's price and unit price side by side. Plan the week's meals from your recipe library, get a priced shopping list, and open each store's share of the list in that store's own cart in your browser.\n\nFor shoppers in Australia, the United Kingdom, New Zealand and the United States. Ask which stores are covered in your country: CartSorted only compares the stores it lists. Sign in with your CartSorted account; prices are compared for the country of your saved postcode. CartSorted never sees your supermarket login or payment details and never checks out for you: cart links open in your own browser, where you review the cart and pay yourself. Store availability and prices vary by area, and a price we last confirmed more than a week ago is marked as older.",
+        "developerName": "CartSorted",
         "category": "Shopping",
         "capabilities": [
           "See which stores are covered in your country",
@@ -68,7 +68,7 @@
               "description": "Say which stores are covered",
               "prompt": "Which supermarkets do you compare in my country?",
               "tools_triggered": "list_stores",
-              "expected_behavior": "Lists the stores OpenOrder covers in the test account's country, taken from the tool result, and notes any store that shows prices but is never named cheapest. Names no store the tool did not return."
+              "expected_behavior": "Lists the stores CartSorted covers in the test account's country, taken from the tool result, and notes any store that shows prices but is never named cheapest. Names no store the tool did not return."
             },
             {
               "description": "Suggest a cheap dinner and add it to the plan",
@@ -99,7 +99,7 @@
           ]
         },
         "commerce": false,
-        "commerce_description": "OpenOrder compares grocery prices and gives the shopper each supermarket's own cart link. It sells nothing, takes no payment and never checks out; the shopper completes any purchase on the supermarket's own site."
+        "commerce_description": "CartSorted compares grocery prices and gives the shopper each supermarket's own cart link. It sells nothing, takes no payment and never checks out; the shopper completes any purchase on the supermarket's own site."
       },
       "publication": {
         "countries": [

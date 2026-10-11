@@ -37,11 +37,22 @@ cheapest.
      at one store only, run it again with `match_mode: "substitutes"`.
 4. Mention stale prices only when `stale_line_count` is above zero.
 
+## A place → `postcode`
+
+Prices come from the user's saved postcode. If they ask about somewhere else
+("in Perth", "near 6012", "at my parents' place"), pass that postcode or ZIP as
+`postcode` to `compare_basket` or `search_product`. It applies to that call
+only. Use `set_postcode` only when they want the change kept. A search echoes
+the postcode it used as `postcode`, and a basket echoes it as
+`location.postcode`. Say which place the prices are for when it is not their
+saved one.
+
 ## One product → `search_product`
 
 1. Call `search_product` with the product as the user named it, or its
    product URL. Use `limit`, `max_price` or `sort` only when they ask for
-   more results, a budget or an order.
+   more results, a budget or an order, and `postcode` only when they name a
+   place (see "A place" above).
 2. Read what kind of answer came back:
    - `verdict` is the store comparison of one product, named in
      `verdict.subject`. Give its headline as being about that product.
@@ -59,7 +70,7 @@ cheapest.
 
 If the user asks about a specific store ("is it cheaper at X?") and X is not
 in the comparison result, call `list_stores`. If X is not listed, say
-OpenOrder doesn't cover it and give the comparison for the stores it does.
+CartSorted doesn't cover it and give the comparison for the stores it does.
 
 ## Don't
 

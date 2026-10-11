@@ -50,7 +50,7 @@ Use this skill for the weekly cycle: plan meals, price the list, fill carts.
      twice doubles the items;
    - items under "add by hand" have a search link each;
    - items marked "you have it" should not be bought;
-   - for a store using the browser extension, the OpenOrder extension fills
+   - for a store using the browser extension, the CartSorted extension fills
      the whole sheet on the store's own page.
 4. Follow the result's `instructions`, and each sheet's own `instructions`,
    exactly. Stop at the cart: the user reviews it and pays themselves.

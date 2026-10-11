@@ -1,13 +1,13 @@
 {
-  "name": "openorder",
-  "description": "OpenOrder's plugin for Claude: grocery price comparison, meal planning and cart links.",
+  "name": "cartsorted",
+  "description": "CartSorted's plugin for Claude: grocery price comparison, meal planning and cart links.",
   "owner": {
-    "name": "OpenOrder",
+    "name": "CartSorted",
     "email": "contact@lukedurrant.com"
   },
   "plugins": [
     {
-      "name": "openorder",
+      "name": "cartsorted",
       "source": "./",
       "description": "Find the cheapest supermarket for your grocery list, plan the week's meals, and send each store's share of the shopping to its own cart.",
       "category": "productivity"

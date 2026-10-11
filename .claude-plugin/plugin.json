@@ -1,15 +1,15 @@
 {
-  "name": "openorder",
-  "displayName": "OpenOrder",
-  "version": "1.0.2",
+  "name": "cartsorted",
+  "displayName": "CartSorted",
+  "version": "1.1.0",
   "description": "Find the cheapest supermarket for your grocery list, plan the week's meals, and send each store's share of the shopping to its own cart. For shoppers in Australia, the UK, New Zealand and the US.",
   "author": {
-    "name": "OpenOrder",
+    "name": "CartSorted",
     "email": "contact@lukedurrant.com",
-    "url": "https://www.openorder.bot"
+    "url": "https://cartsorted.com"
   },
-  "homepage": "https://www.openorder.bot/ai",
-  "repository": "https://github.com/LukeDurrant/openorder-plugin",
+  "homepage": "https://cartsorted.com/ai",
+  "repository": "https://github.com/LukeDurrant/cartsorted-plugin",
   "license": "MIT",
   "keywords": [
     "groceries",
@@ -19,7 +19,7 @@
     "shopping list"
   ],
   "mcpServers": {
-    "openorder": {
+    "cartsorted": {
       "type": "http",
       "url": "https://www.openorder.bot/api/mcp"
     }
