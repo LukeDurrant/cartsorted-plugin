@@ -3,7 +3,7 @@
   "mcpServers": {
     "cartsorted": {
       "type": "streamable-http",
-      "url": "https://www.openorder.bot/api/mcp"
+      "url": "https://cartsorted.com/api/mcp"
     }
   }
 }

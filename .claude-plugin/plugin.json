@@ -1,7 +1,7 @@
 {
   "name": "cartsorted",
   "displayName": "CartSorted",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Compare a shopping basket using CartSorted prices, plan the week's meals, and get a priced shopping list with cart links for the cheapest eligible retailer or a split across stores.",
   "author": {
     "name": "CartSorted",
@@ -21,7 +21,7 @@
   "mcpServers": {
     "cartsorted": {
       "type": "http",
-      "url": "https://www.openorder.bot/api/mcp"
+      "url": "https://cartsorted.com/api/mcp"
     }
   }
 }

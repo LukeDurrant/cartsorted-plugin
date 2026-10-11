@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cartsorted",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Compare a shopping basket using CartSorted prices, plan the week's meals, and get a priced shopping list with cart links for the cheapest eligible retailer or a split across stores.",
   "author": {
     "name": "CartSorted",
@@ -34,10 +34,10 @@
           "Build a priced shopping list",
           "Get cart links for one store or a split across stores"
         ],
-        "websiteURL": "https://www.openorder.bot",
-        "supportURL": "https://www.openorder.bot/support",
-        "privacyPolicyURL": "https://www.openorder.bot/privacy",
-        "termsOfServiceURL": "https://www.openorder.bot/terms",
+        "websiteURL": "https://cartsorted.com",
+        "supportURL": "https://cartsorted.com/support",
+        "privacyPolicyURL": "https://cartsorted.com/privacy",
+        "termsOfServiceURL": "https://cartsorted.com/terms",
         "defaultPrompt": [
           "Which supermarket is cheapest for milk, bread, eggs, chicken thighs and rice?",
           "How much is a 2kg bag of basmati rice at each store?",

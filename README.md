@@ -40,14 +40,14 @@ Then type `/mcp` in a session, choose the CartSorted server and sign in.
 
 **Claude (web, desktop, mobile) and ChatGPT:** add CartSorted from the
 plugin directory once it is listed. Until then, add
-`https://www.openorder.bot/api/mcp` as a custom connector (Claude) or under
+`https://cartsorted.com/api/mcp` as a custom connector (Claude) or under
 Plugins in Developer mode (ChatGPT). Steps for each app are at
 [cartsorted.com/ai](https://cartsorted.com/ai).
 
 ## What is in the plugin
 
 - **A connector** to CartSorted's hosted MCP server at
-  `https://www.openorder.bot/api/mcp`. It provides the tools: basket
+  `https://cartsorted.com/api/mcp`. It provides the tools: basket
   comparison, product price lookup, the list of stores covered, your recipes
   and meal plan, a priced shopping list, and each store's own cart links.
   Price comparisons and cart links are shown as cards where the app supports
