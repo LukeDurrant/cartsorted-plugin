@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cartsorted",
-  "version": "1.1.0",
-  "description": "Compare a grocery basket across the major supermarkets in Australia, the UK, New Zealand and the US, plan the week's meals, and hand each store's share of the shopping list to its own cart.",
+  "version": "1.1.1",
+  "description": "Compare a shopping basket using CartSorted prices, plan the week's meals, and get a priced shopping list with cart links for the cheapest eligible retailer or a split across stores.",
   "author": {
     "name": "CartSorted",
     "email": "contact@lukedurrant.com",
@@ -23,16 +23,16 @@
       "interface": {
         "displayName": "CartSorted",
         "shortDescription": "Cheapest store for your shop",
-        "longDescription": "CartSorted answers one question: where should I do this shop? Give it a list of groceries and it compares the whole basket across the major supermarkets in your country, using fresh prices from our own catalogue, and shows which store is cheapest overall, what to buy where, and which items no store stocks. Look up a single product to see every store's price and unit price side by side. Plan the week's meals from your recipe library, get a priced shopping list, and open each store's share of the list in that store's own cart in your browser.\n\nFor shoppers in Australia, the United Kingdom, New Zealand and the United States. Ask which stores are covered in your country: CartSorted only compares the stores it lists. Sign in with your CartSorted account; prices are compared for the country of your saved postcode. CartSorted never sees your supermarket login or payment details and never checks out for you: cart links open in your own browser, where you review the cart and pay yourself. Store availability and prices vary by area, and a price we last confirmed more than a week ago is marked as older.",
+        "longDescription": "CartSorted helps you compare a shopping basket and plan the week's meals. Send a grocery list to compare CartSorted prices across stores for your saved postcode. Or choose meals from your recipe library, save them to a weekly plan, and get a priced ingredient shopping list. Ask for the cheapest retailer to get cart links for the whole shop at one store, or choose a split across stores. CartSorted supplies the store decision, prices, pack counts and missing items. It only names a cheapest store when the comparison supports that claim. You review the cart and pay on the store's own site.\n\nFor shoppers in Australia, the United Kingdom, New Zealand and the United States. Ask which stores are covered in your country: CartSorted only compares the stores it lists. Sign in with your CartSorted account; prices are compared for the country of your saved postcode. CartSorted never sees your supermarket login or payment details and never checks out for you: cart links open in your own browser, where you review the cart and pay yourself. Store availability and prices vary by area, and a price we last confirmed more than a week ago is marked as older.",
         "developerName": "CartSorted",
         "category": "Shopping",
         "capabilities": [
           "See which stores are covered in your country",
           "Compare a grocery basket across supermarkets",
           "Look up a product's price at each store",
-          "Plan meals from your recipe library",
+          "Plan the week's meals from your recipe library",
           "Build a priced shopping list",
-          "Open each store's cart with your list"
+          "Get cart links for one store or a split across stores"
         ],
         "websiteURL": "https://www.openorder.bot",
         "supportURL": "https://www.openorder.bot/support",
@@ -108,7 +108,7 @@
           "NZ",
           "US"
         ],
-        "release_notes": "First release: basket comparison and product price lookup with in-chat cards, meal planning, priced shopping lists and per-store cart links."
+        "release_notes": "Clearer weekly meal planning and cart guidance: compare a shopping basket, or plan meals and get the ingredients from the cheapest eligible retailer."
       }
     }
   }

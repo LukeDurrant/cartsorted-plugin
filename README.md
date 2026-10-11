@@ -5,6 +5,13 @@ assistant a grocery list and it compares the whole basket across the major
 supermarkets in your country, using fresh prices from CartSorted's own
 catalogue, and tells you which store is cheapest and what to buy where.
 
+You can also plan the week's meals from your recipe library. CartSorted
+prices the ingredients and returns a shopping list and cart links for one
+store or a split across stores. Ask for the cheapest retailer to get the
+whole-shop option. The answer shows missing items and only names a cheapest
+store when the price comparison supports it. You review the cart and pay on
+the store's site.
+
 For shoppers in Australia, the United Kingdom, New Zealand and the United
 States.
 
@@ -14,6 +21,7 @@ States.
 - "How much is a 2kg bag of rice at each store?"
 - "Which supermarkets do you compare in my country?"
 - "Suggest a cheap dinner for Wednesday and add it to my plan."
+- "Help me plan this week's dinners, then get the ingredients from the cheapest retailer."
 - "Turn this week's meal plan into cart links for each store."
 
 ## Install
